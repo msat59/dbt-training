@@ -1,0 +1,10 @@
+version: 2
+
+modes:
+  - name: stage_orders
+    description: staging for orders, one unique order per id
+    columns:
+      - name: orderid
+        description: the primary ket for stage_orders
+      - name: shipmode
+        description: '{{doc("shipmodevar")}}'
