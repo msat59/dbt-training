@@ -1,2 +1,3 @@
 select * from
-"RAW"."GLOBALMART"."CUSTOMER"
+--"RAW"."GLOBALMART"."CUSTOMER"
+{{ source('globalmart', 'customer') }}
