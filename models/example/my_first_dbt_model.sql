@@ -4,7 +4,7 @@
 with source_data as (
 
     select 1 as id
-    union
+    union all --comment
     select null as id
 
 )
